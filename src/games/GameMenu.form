@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="games.GameMenu">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="50" bottom="10" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="640" height="480"/>
+    </constraints>
+    <properties>
+      <maximumSize width="1280" height="720"/>
+      <minimumSize width="640" height="400"/>
+      <preferredSize width="640" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f271c" class="javax.swing.JLabel" binding="head">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d3b20" class="javax.swing.JLabel" binding="gaOne">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="games/ui/gOne.png"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="bbbe0" class="javax.swing.JLabel" binding="gaTwo">
+        <constraints>
+          <grid row="0" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="games/ui/gTwo.png"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
